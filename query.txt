@@ -1,0 +1,3 @@
+SELECT t1.id, t1.name, t2.name AS parent_name
+FROM table AS t1
+LEFT JOIN table AS t2 ON t2.id = t1.parent_id;
